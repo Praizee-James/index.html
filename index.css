@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.first{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.twitter{
+    width: 400px;
+    height: 400px;
+}
+.big-twit{
+    padding: 100px 0;
+}
+.btn1{
+    background-color: white;
+     color: black;
+     font-weight: lighter;
+     border-radius: 20px;
+     width: 300px;
+     height: 40px;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn2{
+    background-color: white;
+     color: black;
+     font-weight: bold;
+     border-radius: 20px;
+     width: 300px;
+     height: 40px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.btn3{
+    background-color: rgba(0, 0, 255, 0.548);
+     color: white;
+     font-weight: bold;
+     border-radius: 20px;
+     width: 300px;
+     height: 40px;
+     
+}
+.Happening{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    justify-content: space-between;
+    padding: 100px;
+}
+.line{
+    display: flex;
+    color: white;
+}
+hr{
+    width: 150px;
+    color: whitesmoke;
+}
+.btn4{
+    color:rgba(0, 0, 255, 0.548) ;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+}
+.link{
+    text-decoration: none;
+    width: 300px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.account{
+    font-size: 20px;
+}
+.box{
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text{
+    font-weight: bolder;
+    font-size: 80px;
+    
+}
+.text1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+footer{
+    text-decoration: none;
+    display: flex;
+    word-spacing: 10px;
+    text-align: center;
+    color: white;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+}
+.google-button{
+    display: flex;
+    justify-content: space-between;
+}
+.create-account{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+    background: none;
+}
+.btn1 a{
+    color: black;
+}
+a:hover{
+    /* text-decoration: underline; */
+}
+.top-img{
+    width: 50px;
+    height: 50px;
+    background: none;
+}
+.input1{
+    border: 1px solid white;
+    height: 40px;
+    width: 300px;
+}
+.account-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.account1:focus-within .create-account{
+    display: block;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text2{
+    background: none;
+    color: white;
+}
+.text4{
+    background: none;
+}
+.big-input{
+    background: none;
+    display: flex;
+}
+.month{
+    width: 70px;
+}
